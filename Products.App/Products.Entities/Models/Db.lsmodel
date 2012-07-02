@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.1.0.0" name="Db" targetNamespace="Products.Entities.Models" databaseProvider="SqlServer2005" connectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Users\don\Dropbox\vs11\Products.App\Products.App\App_Data\db.mdf;Integrated Security=True;User Instance=True" pluralizedInDatabase="false" mediumTrustCompatibility="false" xmlns="http://namespaces.mindscape.co.nz/lightspeed">
+  <entities>
+    <entity name="Product" identityType="Guid" cacheExpiry="0" identityMethod="Guid" trackCreateTime="true" trackUpdateTime="true">
+      <entityProperties>
+        <entityProperty name="Name" />
+        <entityProperty name="Price" dataType="Double" />
+        <entityProperty name="Quantity" dataType="Int32" />
+      </entityProperties>
+      <throughAssociationTargets>
+        <throughAssociation Id="af26b708-f60b-408c-b09a-4e6ec6a57b63" sourceCollectionName="Product" targetCollectionName="Colors" autoThroughEntity="ProductColor">
+          <entityMoniker name="/Db/Color" />
+        </throughAssociation>
+      </throughAssociationTargets>
+    </entity>
+    <entity name="Color" identityType="Guid" cacheExpiry="0" identityMethod="Guid" trackCreateTime="true" trackUpdateTime="true">
+      <entityProperties>
+        <entityProperty name="Name" />
+      </entityProperties>
+    </entity>
+  </entities>
+</model>

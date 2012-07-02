@@ -1,0 +1,20 @@
+.overlay-item {float: left; position: relative; overflow: hidden; margin: 0;}
+.overlay-item img {display:block;}
+.overlay-item .details {padding: 10px;}
+.overlay-item-background {top: 0; height: 100%; width: 100%;}
+.overlay-item i {margin-right: 4px;}
+
+.overlay
+{
+    display: none;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.slide.overlay {bottom: -40px; height: 40px;}
+.topslide.overlay {top: -30px; height: 30px;}
+.leftslide.overlay {left: -100px; width:100px;}
+.rightslide.overlay {display: block; right: -150px; width:220px;}

@@ -1,0 +1,153 @@
+﻿@model List<Products.Entities.Models.Product>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+<div class="span6">
+
+<h2>Create product</h2>
+<form class="well" data-bind="submit: create">
+<div class="row firstrow">
+<div class="span3">
+    <label>Name</label>
+    <input type="text" data-bind="value: createdItem.Name, valueUpdate: 'afterkeydown', style: {border: createdItem.Name.isValid() ? 'none' : '1px solid red' }" />
+</div>
+<div class="span2">
+    <label>Price</label>
+    <div class="input-prepend">
+        <span class="add-on">$</span>
+        <input class="span1" type="text" data-bind="value: createdItem.Price, valueUpdate: 'afterkeydown', style: {border: createdItem.Price.isValid() ? 'none' : '1px solid red' }" />
+    </div>
+</div>
+</div>
+
+<div class="row">
+<div class="span3">
+<div class="controls-group">
+<div class="controls">
+    <label>Choose colors</label>
+    <select data-bind="options: colors, optionsText: 'Name', selectedOptions: selectedColors" multiple="multiple">
+    </select>
+    </div>
+</div>
+</div>
+<div class="span2">
+    <label>Quantity</label>
+    <div class="input-append">
+        <input class="span1" type="text" data-bind="value: createdItem.Quantity, valueUpdate: 'afterkeydown', style: {border: createdItem.Quantity.isValid() ? 'none' : '1px solid red' }" />
+        <span class="add-on">items</span>
+    </div>
+</div>
+</div>
+
+    <button class="btn btn-primary" disabled="disabled" data-bind="enable: createdItem.Name().length > 0 && createdItem.Price() > 0 && createdItem.Price.isValid() && createdItem.Quantity() > 0 && createdItem.Quantity.isValid()">Create Product</button>
+
+</form>
+
+</div>
+
+<div class="span4">
+<h2>Create color</h2>
+<form class="well form-horizontal" data-bind="submit: createColor">
+        <label>Add a color</label>
+        <input type="text" data-bind="value: createdColor.Name, valueUpdate: 'afterkeydown', style: {border: createdColor.Name.isValid() ? 'none' : '1px solid red' }" />
+        <button class="btn btn-primary" value="Create" disabled="disabled" data-bind="enable: createdColor.Name().length > 0 && createdColor.Name.isValid()">Create Color</button>
+    </form>
+
+<h2>Current colors <span class="badge badge-info" data-bind="text: colors().length"></span></h2>
+<div class="well">
+    <ul class="nav nav-list" data-bind="foreach: colors">
+          <li><a href="#" data-bind="click: $root.deleteColor"><i class="color" data-bind="style: {background: Name}"></i><span data-bind="text: Name"></span></a></li>
+    </ul>
+    <div style="clear:both;"></div>
+    <p>Click on a color to remove it.</p>
+    </div>
+</div>
+
+</div>
+
+<h2>Available products <span class="badge badge-info" data-bind="text: products().length"></span> of <span class="badge badge-info" data-bind="text: totalResults()"></span></h2>
+
+<div class="row">
+
+<div class="span3">
+<div class="filters btn-group" data-bind="foreach: ordering">
+  <button class="btn" data-bind="click: $root.reorderProducts, text: name, css: {active: isActive() == true}"></button>
+</div>
+
+</div>
+<div class="span3">
+<div class="filters btn-group">
+  <button class="btn active" data-bind="click: regroupProducts" data-group="3">3</button>
+  <button class="btn" data-bind="click: regroupProducts" data-group="6">6</button>
+  <button class="btn" data-bind="click: regroupProducts" data-group="9">9</button>
+</div>
+
+</div>
+
+</div>
+
+<div class="row items" data-bind="foreach: { data: products,  afterRender: itemAddedEvent }">
+
+    <div class="span4">
+
+    <div class="overlay-item well">
+        <a class="overlay">
+            <div class="details">
+                <button class="btn btn-mini" type="button" data-bind="click: $root.editProduct, visible: !isEdited()">Edit</button>
+                <button class="btn btn-success btn-mini" type="button" data-bind="click: $root.updateProduct, visible: isEdited()">Save</button>
+                <button class="btn btn-danger btn-mini" type="button" data-bind="click: $root.deleteProduct">Delete</button>
+            </div>
+        </a>
+        <div class="overlay-item-background">
+            <h2 data-bind="text: Name, visible: !isEdited()"></h2>
+            <h2 data-bind="visible: isEdited()"><input type="text" data-bind="value: Name, valueUpdate: 'afterkeydown'" /></h2>
+
+            <span class="price" data-bind="visible: !isEdited()">$<span data-bind="text: Price"></span></span>
+            <span class="price" data-bind="visible: isEdited()">$<input type="text" data-bind="value: Price, valueUpdate: 'afterkeydown'" /></span>
+            
+            <ul>
+                <li class="quantity"><i class="icon icon-chevron-right"></i> Quantity: <span data-bind="text: Quantity, visible: !isEdited()"></span><input type="text" data-bind="value: Quantity, valueUpdate: 'afterkeydown', visible: isEdited()" /></li>
+                     <!-- ko if: Created -->
+                <li>
+                    <i class="icon icon-time"></i> Created: 
+                    <span class="date" data-bind="text: Created"></span>
+               </li>
+               <!-- /ko -->
+                    <!-- ko if: LastUpdated -->
+                <li>
+                    <i class="icon icon-time"></i> Updated: 
+                    <span class="date" data-bind="text: LastUpdated"></span>
+                </li>
+                    <!-- /ko -->
+                    <!-- ko if: Colors -->
+                        <li><i class="icon icon-leaf"></i> Colors:</li>
+                    <!-- /ko -->
+            </ul>
+            
+                <!-- ko if: Colors -->
+                    <ul class="nav-list nav-item" data-bind="foreach: Colors, visible: !isEdited()">
+                        <li><i class="color" data-bind="style: {background: Name}"></i><span data-bind="text: Name"></span></li>
+                    </ul>
+                    <div style="clear:both;"></div>
+                <!-- /ko -->
+         
+            <select data-bind="options: $root.colors, optionsText: 'Name', selectedOptions: Colors, visible: isEdited()" multiple="multiple">
+    </select>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+<div style="clear:both;"></div>
+
+<div class="pagination">
+  <ul>
+  </ul>
+</div>
+
+<script src="../../Scripts/app/models.js" type="text/javascript"></script>
+<script src="../../Scripts/app/app.js" type="text/javascript"></script>
+<script src="../../Scripts/filip.overlay.js" type="text/javascript"></script>

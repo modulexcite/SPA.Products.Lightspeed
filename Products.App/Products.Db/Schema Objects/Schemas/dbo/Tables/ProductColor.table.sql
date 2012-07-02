@@ -1,0 +1,11 @@
+﻿GO
+CREATE TABLE [dbo].[ProductColor](
+ [Id] [int] IDENTITY(1,1) NOT NULL,
+ [ProductId] [uniqueidentifier] NOT NULL,
+ [ColorId] [uniqueidentifier] NOT NULL,
+ CONSTRAINT [PK__ProductC__3214EC0731B762FC] PRIMARY KEY CLUSTERED 
+(
+ [Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON)
+)
+GO

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<minimalLanguageDiagram dslVersion="1.1.0.0" absoluteBounds="0, 0, 11, 8.5" name="Color">
+  <modelMoniker name="/Db" />
+  <nestedChildShapes>
+    <entityShape Id="0f31c5be-dd7e-48de-81b3-f7c78c7d6840" absoluteBounds="2.375, 1, 1.625, 1.0030419921875002">
+      <entityMoniker name="/Db/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2cbc0d78-4c67-4022-b5cd-769356bf30fe" absoluteBounds="2.3899999999999997, 1.4100000000000001, 1.5950000000000002, 0.4930419921875" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <entityShape Id="349f2075-02cd-4b6a-846f-58cbc6192423" absoluteBounds="6.75, 1.625, 1.5, 0.67434733072916675">
+      <entityMoniker name="/Db/Color" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85c80c17-af46-47e4-a5dd-763f1b3ad507" absoluteBounds="6.765, 2.035, 1.4700000000000002, 0.16434733072916666" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <throughAssociationConnector edgePoints="[(4 : 1.81402099609375); (6.75 : 1.81402099609375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <throughAssociationMoniker Id="af26b708-f60b-408c-b09a-4e6ec6a57b63" />
+      <relativeChildShapes />
+      <nodes>
+        <entityShapeMoniker Id="0f31c5be-dd7e-48de-81b3-f7c78c7d6840" />
+        <entityShapeMoniker Id="349f2075-02cd-4b6a-846f-58cbc6192423" />
+      </nodes>
+    </throughAssociationConnector>
+  </nestedChildShapes>
+</minimalLanguageDiagram>

@@ -1,0 +1,45 @@
+﻿<table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Product name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Colors</th>
+            <th>Created</th>
+            <th>Updated</th>
+          </tr>
+        </thead>
+        <tbody data-bind="foreach: {data: products, beforeRemove: hideProductTransition, afterAdd: showProductTransition }">
+            <tr>
+                <td data-bind="text: Name">
+                </td>
+                <td data-bind="text: Price">
+                </td>
+                <td data-bind="text: Quantity">
+                </td>
+                <td>
+                <!-- ko if: Colors -->
+                    <ul class="nav-list nav-item" data-bind="foreach: Colors, visible: !isEdited()">
+                        <li><i class="color" data-bind="style: {background: Name}"></i><span data-bind="text: Name"></span></li>
+                    </ul>
+                    <div style="clear:both;"></div>
+                <!-- /ko -->
+                </td>
+                <td>
+                    <!-- ko if: Created -->
+                    <span data-bind="text: Created"></span>
+                    <!-- /ko -->
+                </td>
+                <td>
+                    <!-- ko if: LastUpdated -->
+                    <span data-bind="text: LastUpdated"></span>
+                    <!-- /ko -->
+                </td>
+            </tr>
+        </tbody>
+      </table>
+
+<script type="text/javascript" src="../../Scripts/jquery.signalR-0.5.2.js"></script>
+<script type="text/javascript" src="@Url.Content("~/signalr/hubs")"></script>
+<script src="../../Scripts/app/models.js" type="text/javascript"></script>
+<script src="../../Scripts/app/realtime.js" type="text/javascript"></script>

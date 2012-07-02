@@ -1,0 +1,154 @@
+2012-07-02 11:15:13.1773|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:15:13.1773|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 11:23:47.7837|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 11:23:47.7837|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:25:57.8137|INFO|Products.App.Controllers.MVC3API.ProductsController|Adding product, Name - ggg
+2012-07-02 11:25:58.0077|INFO|Products.App.Controllers.MVC3API.ProductsController|Product added, ID - 04a17a2d-1c2a-477e-beab-a5902e91d3ad
+2012-07-02 11:25:58.0437|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:31:07.9761|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:31:07.9761|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 11:31:20.2478|INFO|Products.App.Controllers.MVC3API.ProductsController|Adding product, Name - dsadsad
+2012-07-02 11:31:20.2759|INFO|Products.App.Controllers.MVC3API.ProductsController|Product added, ID - 7698ac80-12c2-4810-aea2-7151e5ed1839
+2012-07-02 11:31:20.2929|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:37:32.7075|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:37:32.7125|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 11:37:58.0409|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:37:58.0459|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 11:39:39.9584|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:39:39.9674|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 11:39:51.7251|INFO|Products.App.Controllers.MVC3API.ColorsController|Adding color, Name - green
+2012-07-02 11:39:51.7461|INFO|Products.App.Controllers.MVC3API.ColorsController|Color added, ID - 5f338657-b264-4b95-af98-c810ff55c7ee
+2012-07-02 11:40:33.8544|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 11:40:33.8544|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:40:40.5828|INFO|Products.App.Controllers.MVC3API.ColorsController|Adding color, Name - yellow
+2012-07-02 11:40:40.6008|INFO|Products.App.Controllers.MVC3API.ColorsController|Color added, ID - 7fa0d9fa-d425-4230-9542-5c94b80f4cb5
+2012-07-02 11:41:23.5521|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:41:23.5521|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 11:41:56.6259|INFO|Products.App.Controllers.MVC3API.ColorsController|Adding color, Name - lime
+2012-07-02 11:41:56.6419|INFO|Products.App.Controllers.MVC3API.ColorsController|Color added, ID - 6f52db01-4de2-4d65-8121-61fa064c03ce
+2012-07-02 11:42:53.9360|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:42:53.9360|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 11:42:57.9672|INFO|Products.App.Controllers.MVC3API.ColorsController|Adding color, Name - beige
+2012-07-02 11:42:57.9762|INFO|Products.App.Controllers.MVC3API.ColorsController|Color added, ID - 5b56b934-d5b6-461a-9333-bb7d04205011
+2012-07-02 11:43:03.4856|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:43:03.4856|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 11:46:22.0128|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 6, offset 0
+2012-07-02 11:46:25.0300|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 9, offset 0
+2012-07-02 11:46:36.5657|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 9, offset 0
+2012-07-02 11:46:50.3031|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 9, offset 0
+2012-07-02 11:46:54.4573|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 11:48:11.2543|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 11:50:50.5583|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 11:55:43.1596|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleting product - real time - c42508fd-e792-445e-a794-234d14fa706f
+2012-07-02 11:55:43.3846|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleted product - notifying clients, real time - c42508fd-e792-445e-a794-234d14fa706f
+2012-07-02 11:56:02.8177|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 11:56:10.6762|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 11:56:42.8670|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 11:56:43.7501|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 11:57:02.4461|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 11:57:12.8677|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleting product - real time - 7698ac80-12c2-4810-aea2-7151e5ed1839
+2012-07-02 11:57:12.8907|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleted product - notifying clients, real time - 7698ac80-12c2-4810-aea2-7151e5ed1839
+2012-07-02 11:57:50.9069|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 11:57:57.1553|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:00:36.6624|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:01:47.3724|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:02:44.2747|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:27:04.2562|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:28:06.3127|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:28:25.3198|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:29:13.4006|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:29:57.8301|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:30:21.5075|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:33:36.9586|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:34:01.9821|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:38:42.0981|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:38:52.6137|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:39:42.5726|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:40:39.8468|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:40:53.0406|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:42:05.4107|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:43:22.7111|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:43:37.5270|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:43:48.7406|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:44:39.3985|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:45:02.5679|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:45:07.2111|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:45:19.9989|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:46:12.2368|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:46:21.2594|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:46:47.4539|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:47:03.1728|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:48:07.2114|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleting product - real time - 1f16edd6-4a84-4e9e-9e60-93f100701681
+2012-07-02 12:48:07.2684|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleted product - notifying clients, real time - 1f16edd6-4a84-4e9e-9e60-93f100701681
+2012-07-02 12:48:13.6148|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleting product - real time - 04a17a2d-1c2a-477e-beab-a5902e91d3ad
+2012-07-02 12:48:13.6688|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleted product - notifying clients, real time - 04a17a2d-1c2a-477e-beab-a5902e91d3ad
+2012-07-02 12:48:28.4466|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Adding product - real time - new product
+2012-07-02 12:48:28.4936|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Added product - notifying clients, real time - new product
+2012-07-02 12:48:38.1412|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:49:17.7885|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 12:49:44.1600|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleting product - real time - 6a6d6e54-b95d-4470-ac6e-b2754dc9a22e
+2012-07-02 12:49:44.1770|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleted product - notifying clients, real time - 6a6d6e54-b95d-4470-ac6e-b2754dc9a22e
+2012-07-02 12:49:50.9053|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleting product - real time - 349ef340-3896-4ee4-b189-afb85e7bb365
+2012-07-02 12:49:50.9233|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleted product - notifying clients, real time - 349ef340-3896-4ee4-b189-afb85e7bb365
+2012-07-02 12:50:05.4432|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Adding product - real time - some product
+2012-07-02 12:50:05.5162|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Added product - notifying clients, real time - some product
+2012-07-02 13:31:21.1568|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 13:31:21.1568|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 13:31:27.4951|INFO|Products.App.Controllers.MVC3API.ColorsController|Adding color, Name - green
+2012-07-02 13:31:27.7522|INFO|Products.App.Controllers.MVC3API.ColorsController|Color added, ID - b1fbdfb3-e350-4a1d-9a8a-9bb60584d844
+2012-07-02 13:31:33.2785|INFO|Products.App.Controllers.MVC3API.ColorsController|Adding color, Name - red
+2012-07-02 13:31:33.3345|INFO|Products.App.Controllers.MVC3API.ColorsController|Color added, ID - dcc909d2-20ae-481c-9389-95feaea8ca9e
+2012-07-02 13:31:36.8237|INFO|Products.App.Controllers.MVC3API.ColorsController|Adding color, Name - black
+2012-07-02 13:31:36.8877|INFO|Products.App.Controllers.MVC3API.ColorsController|Color added, ID - 40da3113-af7c-4748-a94c-8894537d48a1
+2012-07-02 13:31:45.1472|INFO|Products.App.Controllers.MVC3API.ProductsController|Adding product, Name - testme
+2012-07-02 13:31:45.2042|INFO|Products.App.Controllers.MVC3API.ProductsController|Product added, ID - 33794ad7-05fd-44f9-b045-4f1d29605282
+2012-07-02 13:31:45.2192|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 13:31:47.2323|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 13:31:49.0384|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 6, offset 0
+2012-07-02 13:31:52.8966|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Retrieving products - real time
+2012-07-02 13:32:05.1963|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Adding product - real time - dsadda
+2012-07-02 13:32:05.5283|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Added product - notifying clients, real time - dsadda
+2012-07-02 13:32:13.0217|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleting product - real time - 33794ad7-05fd-44f9-b045-4f1d29605282
+2012-07-02 13:32:13.2048|INFO|Products.App.Controllers.WebAPI.RealTimeProductsController|Deleted product - notifying clients, real time - 33794ad7-05fd-44f9-b045-4f1d29605282
+2012-07-02 13:39:35.3850|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 13:39:35.3850|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 13:39:41.7394|INFO|Products.Entities.Models.IProductRepository|Deleting 40da3113-af7c-4748-a94c-8894537d48a1.
+2012-07-02 13:39:41.8314|INFO|Products.Entities.Models.IProductRepository|Deletion of 40da3113-af7c-4748-a94c-8894537d48a1 successful.
+2012-07-02 13:49:28.0599|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 13:49:28.0599|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 13:49:42.5108|INFO|Products.App.Controllers.MVC3API.ProductsController|Adding product, Name - new product
+2012-07-02 13:49:42.5108|INFO|Products.Entities.Models.IProductRepository|Adding new product new product.
+2012-07-02 13:49:42.5908|INFO|Products.Entities.Models.IProductRepository|New product ID assigned f094cb34-f77b-448d-bf30-8f4dd927cd7d.
+2012-07-02 13:49:42.5908|INFO|Products.Entities.Models.IProductRepository|Importing product colors into DB.
+2012-07-02 13:49:42.6298|INFO|Products.Entities.Models.IProductRepository|Product f094cb34-f77b-448d-bf30-8f4dd927cd7d added.
+2012-07-02 13:49:42.6318|INFO|Products.App.Controllers.MVC3API.ProductsController|Product added, ID - f094cb34-f77b-448d-bf30-8f4dd927cd7d
+2012-07-02 13:49:42.6478|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 13:49:56.7886|INFO|Products.App.Controllers.MVC3API.ColorsController|Adding color, Name - yellow
+2012-07-02 13:49:56.7886|INFO|Products.Entities.Models.IProductRepository|Adding color yellow.
+2012-07-02 13:49:56.8416|INFO|Products.Entities.Models.IProductRepository|Color yellow successfully added.
+2012-07-02 13:49:56.8416|INFO|Products.App.Controllers.MVC3API.ColorsController|Color added, ID - 76467e45-ba31-4183-bd64-8ca4c5c2ff12
+2012-07-02 13:50:08.7423|INFO|Products.Entities.Models.IProductRepository|Updating product new product333, f094cb34-f77b-448d-bf30-8f4dd927cd7d.
+2012-07-02 13:50:08.7583|INFO|Products.Entities.Models.IProductRepository|Updating product new product333, f094cb34-f77b-448d-bf30-8f4dd927cd7d - colors.
+2012-07-02 13:50:08.8473|INFO|Products.Entities.Models.IProductRepository|Product new product333, f094cb34-f77b-448d-bf30-8f4dd927cd7d successfully updated.
+2012-07-02 13:50:08.8673|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 13:52:17.2166|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 13:52:17.2166|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 13:52:22.0859|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 13:52:25.9431|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0
+2012-07-02 13:59:18.7507|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0, order Name
+2012-07-02 13:59:18.7507|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 13:59:19.8288|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0, order 
+2012-07-02 13:59:58.9090|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0, order Name
+2012-07-02 13:59:58.9090|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 14:00:05.7664|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0, order 
+2012-07-02 14:00:10.2007|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset , order 
+2012-07-02 14:00:16.3390|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take , offset , order 
+2012-07-02 14:00:52.1741|INFO|Products.App.Controllers.MVC3API.ColorsController|Retrieving colors
+2012-07-02 14:00:52.1741|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset 0, order Name
+2012-07-02 14:00:53.6812|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take , offset , order 
+2012-07-02 14:01:03.8457|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 3, offset , order 
+2012-07-02 14:01:07.5030|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 1, offset , order 
+2012-07-02 14:01:13.4343|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 1, offset 1, order 
+2012-07-02 14:01:16.1685|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 1, offset 2, order 
+2012-07-02 14:01:20.7547|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 1, offset 0, order 
+2012-07-02 14:01:23.9019|INFO|Products.App.Controllers.MVC3API.ProductsController|Retrieving products - take 1, offset 1, order 

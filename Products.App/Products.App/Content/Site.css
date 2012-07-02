@@ -1,0 +1,21 @@
+﻿h2 .badge {position: relative;top: -4px;}
+
+.filters {margin: 15px 0;}
+
+  .nav-list {}
+  .nav-list li {float:left; margin: 0 12px 0 0; list-style-type:none;}
+  .nav-list i {display:inline-block; height:10px; width: 10px; margin-right:6px;}
+  
+  .overlay-item-background {width:310px; min-height:220px;}
+  .overlay-item-background ul li { list-style-type: none;}
+  
+  .overlay-item ul {padding:0; margin:0;}
+  .overlay-item .nav-list li {float:none; margin-left:20px;}
+ 
+  span.price {font-size: 48px; position: absolute;top: 35px;right: 20px;}
+  span.price input, .quantity input {width:50px;}
+  
+  span.date {font-size:9px;}
+  
+  .green {background: green !important; color:#fff;}
+  .red {background: red !important;color:#fff;}
