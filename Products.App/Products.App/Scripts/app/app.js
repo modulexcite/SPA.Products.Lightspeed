@@ -240,6 +240,9 @@ function viewModel() {
 
     self.regroupProducts = function (el, evt) {
         var btn = $(evt.srcElement);
+        if (evt.srcElement == undefined)
+            btn = $(evt.currentTarget);
+            
         self.pagination.take(btn.data("group"));
         btn.addClass("active");
         btn.siblings().each(function () { $(this).removeClass("active"); });
