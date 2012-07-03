@@ -41,13 +41,14 @@ namespace Products.App.Controllers.MVC3API
             int _offset = offset ?? 0;
             string _order = order ?? "Name";
 
-            if (_take + _offset > result)
+            if (_offset >= result)
             {
                 _offset = 0;
-                if (_take > result)
-                {
-                    _take = result;
-                }
+            }
+
+            if (_take > result)
+            {
+                _take = result;
             }
                 
             switch (_order.ToLowerInvariant())
